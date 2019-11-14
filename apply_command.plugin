@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=apply_command
+IAge=2
+Name=Apply command
+Description=Adds "Open" link in context menu
+Authors=Janych <github@Janych.ru>
+Website=
+

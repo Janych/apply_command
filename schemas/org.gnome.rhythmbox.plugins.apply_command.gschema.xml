@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema id="org.gnome.rhythmbox.plugins.apply_command" path="/org/gnome/rhythmbox/plugins/apply_command/">
+
+		<key name="command" type="s">
+			<default>"nautilus --no-desktop %f"</default>
+			<summary>Custom command to be used whith open menu item</summary>
+			<description>%f - file name, %F - all file names, %u - uri, %U - all uri</description>
+		</key>
+
+	</schema>
+</schemalist>
